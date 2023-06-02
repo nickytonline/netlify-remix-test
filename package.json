@@ -3,8 +3,8 @@
   "sideEffects": false,
   "scripts": {
     "build": "remix build",
-    "predev": "rimraf ./.netlify/edge-functions/",
-    "dev": "remix dev",
+    "predev": "npm run build",
+    "dev": "remix watch",
     "start": "netlify serve",
     "typecheck": "tsc -b"
   },

@@ -4,4 +4,3 @@ publish = "public"
 
 [dev]
 command = "npm run dev"
-targetPort = 3000
